@@ -126,6 +126,10 @@ for logs, restarts, and backups.
 
 ## Development
 
+For a first contribution, follow [CONTRIBUTING.md](CONTRIBUTING.md) and the
+[developer guide](docs/development.md). Coding agents should start with
+[AGENTS.md](AGENTS.md). No live account or model credentials are needed.
+
 ```sh
 npm run check
 npm run build
