@@ -1,0 +1,26 @@
+{
+  "key": {
+    "remoteJid": "120363000000000000@g.us",
+    "fromMe": false,
+    "id": "3EB0REPLYMESSAGE001",
+    "participant": "64210000001@s.whatsapp.net",
+    "addressingMode": "pn"
+  },
+  "messageTimestamp": 1786921260,
+  "pushName": "Another Redacted Person",
+  "broadcast": false,
+  "message": {
+    "extendedTextMessage": {
+      "text": "Agreed; preserve the reply edge.",
+      "contextInfo": {
+        "stanzaId": "3EB0TEXTMESSAGE0001",
+        "participant": "64210000000@s.whatsapp.net",
+        "remoteJid": "120363000000000000@g.us",
+        "quotedMessage": {
+          "conversation": "The link extraction path is the buried treasure."
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,16 @@
+{
+  "key": {
+    "remoteJid": "120363000000000000@g.us",
+    "fromMe": false,
+    "id": "3EB0TEXTMESSAGE0001",
+    "participant": "64210000000@s.whatsapp.net",
+    "addressingMode": "pn"
+  },
+  "messageTimestamp": 1786921200,
+  "pushName": "Redacted Person",
+  "broadcast": false,
+  "message": {
+    "conversation": "The link extraction path is the buried treasure."
+  }
+}
+

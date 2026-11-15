@@ -1,0 +1,28 @@
+{
+  "key": {
+    "remoteJid": "120363000000000000@g.us",
+    "fromMe": false,
+    "id": "3EB0IMAGEMESSAGE001",
+    "participant": "64210000000@s.whatsapp.net",
+    "addressingMode": "pn"
+  },
+  "messageTimestamp": 1786921320,
+  "pushName": "Redacted Person",
+  "broadcast": false,
+  "message": {
+    "imageMessage": {
+      "url": "https://mmg.whatsapp.net/redacted",
+      "mimetype": "image/jpeg",
+      "caption": "A caption remains searchable.",
+      "fileSha256": "cmVkYWN0ZWQ=",
+      "fileLength": 12345,
+      "height": 800,
+      "width": 600,
+      "mediaKey": "cmVkYWN0ZWQ=",
+      "fileEncSha256": "cmVkYWN0ZWQ=",
+      "directPath": "/v/redacted",
+      "mediaKeyTimestamp": 1786921320
+    }
+  }
+}
+

@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a reproducible problem using synthetic data.
+title: "fix: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not post chat messages, phone numbers, group IDs, invitation links, QR codes,
+        credentials, databases, or operational logs. Use synthetic data only.
+        Security-sensitive reports belong in the private channel described in SECURITY.md.
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Synthetic reproduction
+      description: Steps and invented input that reproduce the problem.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: OS, Node version, and source commit
+    validations:
+      required: true

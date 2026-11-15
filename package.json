@@ -1,0 +1,45 @@
+{
+  "name": "community-brief",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Self-hosted WhatsApp community briefings, source links, and private questions",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rabble/chat-summarizer.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "check": "npm run typecheck && npm test",
+    "start": "node --enable-source-maps dist/cli.js start",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "release:check": "node scripts/check-public-source.mjs",
+    "release:export": "node scripts/export-public-source.mjs",
+    "service:print": "node ops/install-launch-agent.mjs --print",
+    "service:install": "node ops/install-launch-agent.mjs --install"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "better-sqlite3": "13.0.3",
+    "commander": "15.0.0",
+    "dotenv": "17.4.2",
+    "pino": "10.3.1",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "0.12.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "latest",
+    "@types/node": "24",
+    "@types/qrcode": "^1.5.6",
+    "@types/qrcode-terminal": "latest",
+    "typescript": "7.0.2",
+    "vitest": "4.1.12"
+  }
+}
