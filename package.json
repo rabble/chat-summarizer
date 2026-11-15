@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@types/better-sqlite3": "latest",
-    "@types/node": "24",
+    "@types/node": "26",
     "@types/qrcode": "^1.5.6",
     "@types/qrcode-terminal": "latest",
     "typescript": "7.0.2",
