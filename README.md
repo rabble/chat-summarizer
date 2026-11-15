@@ -17,6 +17,11 @@ Read [privacy and data flow](docs/privacy.md) before deployment.
 
 ## Quick start
 
+**Setting up your own instance?** Follow the
+[WhatsApp connection walkthrough](docs/whatsapp-setup.md): choose the linked and
+reader accounts, scan the QR, select source groups, verify capture, and receive
+your first summary before enabling daily delivery.
+
 Use Node.js **24 LTS**, npm, and an always-on machine. macOS is the currently
 operated platform; CI also checks the offline suite on Linux. Native SQLite builds
 may need platform build tools when a prebuilt binary is unavailable.
