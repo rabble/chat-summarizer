@@ -4,6 +4,9 @@ Use Node.js 24 LTS. One process must own a given WhatsApp auth directory at a ti
 Do not run a terminal connector alongside the service, or run live tests against
 the service's auth directory.
 
+For first-time pairing, account selection, group discovery, and a first summary,
+follow [Connect your own WhatsApp account](whatsapp-setup.md) before installing a service.
+
 ## macOS startup
 
 Pair in the terminal first, verify the desired source allowlist, and stop with
