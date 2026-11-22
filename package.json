@@ -40,6 +40,6 @@
     "@types/qrcode": "^1.5.6",
     "@types/qrcode-terminal": "latest",
     "typescript": "7.0.2",
-    "vitest": "4.1.12"
+    "vitest": "5.1.1"
   }
 }
